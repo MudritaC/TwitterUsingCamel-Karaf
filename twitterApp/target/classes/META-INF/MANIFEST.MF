@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1507498406077
+Build-Jdk: 1.8.0_144
+Built-By: mudrita
+Bundle-Blueprint: OSGI-INF/blueprint/blueprint.xml
+Bundle-ManifestVersion: 2
+Bundle-Name: twitter-API-implementation
+Bundle-SymbolicName: implement.twitter.twitterApp
+Bundle-Version: 1.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Import-Package: org.apache.camel;version="[2.18,3)",org.apache.camel.bui
+ lder;version="[2.18,3)",org.apache.camel.model;version="[2.18,3)",org.o
+ sgi.service.blueprint;version="[1.0.0,2.0.0)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Tool: Bnd-3.0.0.201509101326
